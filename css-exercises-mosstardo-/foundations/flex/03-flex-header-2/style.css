@@ -20,6 +20,11 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  display: flex;
+  align-items: end;
+  margin: 8px;
+  display: flex;
+  flex: none;
 }
 
 .logo {
@@ -27,6 +32,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin: 8px;
 }
 
 button {
@@ -34,7 +40,8 @@ button {
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
-  padding: 8px 24px;
+  padding: 15px 24px;
+  margin-left: auto;
 }
 
 a {
@@ -45,4 +52,15 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
 }

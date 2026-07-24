@@ -1,6 +1,6 @@
 .header  {
   font-family: monospace;
-  background: papayawhip;
+  background: rgb(244, 234, 216);
 }
 
 .logo {
@@ -9,12 +9,9 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-ul {
-  /* this removes the dots on the list items*/
-  list-style-type: none;
-}
 
 a {
   font-size: 22px;
@@ -22,4 +19,21 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  font-family:'Times New Roman', Times, serif;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+  list-style-type: none;
+}
+
