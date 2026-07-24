@@ -55,12 +55,11 @@ ul {
   display: flex;
   margin: 0;
   padding: 0;
-  gap: 8px;
+  gap: 16px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }

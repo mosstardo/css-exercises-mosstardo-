@@ -10,6 +10,8 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 50px;
 }
 
 /* do not edit this footer */
@@ -24,3 +26,28 @@ img {
   justify-content: center;
   background: #eee;
 }
+ 
+.c, .t {
+  width: 200px;
+  height: auto;
+  border-color: palevioletred;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+.titlecont {
+  display: flex;
+  justify-self: center;
+
+}
+
+#maincontainer {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
